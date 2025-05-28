@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Olhares do Campo e da Cidade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Galeria "Olhares do Campo e da Cidade"</h1>
+        <div class="gallery">
+            <div class="photo-item">
+                <img src="img1.jpg" alt="Foto do Campo">
+                <div class="caption">
+                    <p>Legenda: A beleza do campo, vista pelos olhos de um estudante.</p>
+                </div>
+            </div>
+            <div class="photo-item">
+                <img src="img2.jpg" alt="Foto da Cidade">
+                <div class="caption">
+                    <p>Legenda: A vida urbana e seu movimento constante.</p>
+                </div>
+            </div>
+            <!-- Adicione mais fotos conforme necessário -->
+        </div>
+    </div>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Olhares do Campo e da Cidade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Barra de Navegação -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Container Principal -->
+    <div class="container" id="home">
+        <h1>Galeria "Olhares do Campo e da Cidade"</h1>
+        <div class="gallery" id="galeria">
+            <div class="photo-item">
+                <img src="img1.jpg" alt="Foto do Campo">
+                <div class="caption">
+                    <p>Legenda: A beleza do campo, vista pelos olhos de um estudante.</p>
+                </div>
+            </div>
+            <div class="photo-item">
+                <img src="img2.jpg" alt="Foto da Cidade">
+                <div class="caption">
+                    <p>Legenda: A vida urbana e seu movimento constante.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Formulário de Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+<!-- Formulário para enviar nova imagem -->
+<section id="upload">
+    <div class="container">
+        <h2>Adicionar Nova Imagem</h2>
+        <form id="upload-form">
+            <label for="imagem">Escolha uma imagem:</label>
+            <input type="file" id="imagem" name="imagem" accept="image/*" required>
+
+            <label for="legenda">Legenda:</label>
+            <input type="text" id="legenda" name="legenda" placeholder="Descrição da imagem" required>
+
+            <button type="submit">Adicionar Imagem</button>
+        </form>
+    </div>
+</section>
+
 
